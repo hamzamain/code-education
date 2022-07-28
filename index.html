@@ -547,7 +547,16 @@
           <h2>Some Students Feedback</h2>
           <p>here are some feedback from our students</p>
         </div>
-        <div class="d-lg-flex gap-lg-3 d-block">
+        <div class="d-lg-flex gap-lg-3 d-block position-relative">
+          <span
+            class="position-absolute end-0 bottom-50 p-3 border rounded-circle bg-primary d-md-none d-lg-inline d-none"
+            ><i class="fa-regular fa-angle-left"></i>
+          </span>
+          <span
+            class="position-absolute start-0 bottom-50 p-3 border rounded-circle bg-primary d-md-none d-lg-inline d-none"
+            ><i class="fa-regular fa-angle-right"></i
+          ></span>
+
           <article class="border p-5 rounded mb-3">
             <div class="d-flex justify-content-between px-3 mb-3">
               <img src="images/comma.png" alt="" />
@@ -602,9 +611,9 @@
               </div>
             </div>
           </article>
-          <div class="d-flex justify-content-center">
-            <button class="btn btn-primary">View More</button>
-          </div>
+        </div>
+        <div class="d-lg-none d-md-flex d-flex justify-content-center">
+          <button class="btn btn-primary">View More</button>
         </div>
       </section>
       <!-- student feedback end -->
