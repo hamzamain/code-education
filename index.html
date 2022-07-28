@@ -350,11 +350,11 @@
       <!-- Ready to join? section start -->
       <section>
         <div
-          class="bg-primary rounded p-4 text-white d-lg-flex d-md-block d-block justify-content-between align-items-center my-5 text-md-center text-center"
+          class="bg-primary rounded p-4 d-lg-flex d-md-block d-block justify-content-between align-items-center my-5 text-md-center text-center"
         >
           <div class="ms-lg-5">
-            <h2>Ready to join?</h2>
-            <p class="custom-fs mb-lg-0">
+            <h2 class="text-white">Ready to join?</h2>
+            <p class="custom-fs mb-lg-0 text-white">
               It is a long established fact that a reader will be distracted by
               <br />
               the readable content of a page when looking at its layout.
@@ -385,7 +385,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="staticBackdropLabel">
-                      Modal title
+                      join now
                     </h5>
                     <button
                       type="button"
@@ -394,7 +394,34 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="modal-body">...</div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          aria-describedby="emailHelp"
+                          placeholder="enter your email"
+                        />
+                        <div id="emailHelp" class="form-text">
+                          We'll never share your email with anyone else.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="exampleInputPassword1"
+                          placeholder="password"
+                        />
+                      </div>
+
+                      <button type="submit" class="btn btn-primary">
+                        Submit
+                      </button>
+                    </form>
+                  </div>
                   <div class="modal-footer">
                     <button
                       type="button"
@@ -404,7 +431,7 @@
                       Close
                     </button>
                     <button type="button" class="btn btn-primary">
-                      Understood
+                      Read Ploicy
                     </button>
                   </div>
                 </div>
